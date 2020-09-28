@@ -1,4 +1,4 @@
-name := "scala-zxf"
+name := "scala-applys"
 
 version := "0.1"
 
