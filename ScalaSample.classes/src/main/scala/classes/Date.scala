@@ -1,6 +1,6 @@
 package classes
 
-class date(day: Int, month: Int, year: Int) {
+class Date(day: Int, month: Int, year: Int) {
   print(day)
   
   
@@ -18,8 +18,8 @@ class date(day: Int, month: Int, year: Int) {
   }
 }
 
-object date {
+object Date {
   def apply(day: Int, month: Int, year: Int) = {
-    new date(day, month, year);
+    new Date(day, month, year);
   }
 }

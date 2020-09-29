@@ -1,6 +1,6 @@
 package classes
 
-import scala.reflect.BeanProperty
+import scala.beans.BeanProperty
 
 class Person1(val firstName: String, var lastName: String) extends Ordered[Person1] {
   def compare(that: Person1) = firstName.compareTo(that.firstName)

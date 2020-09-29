@@ -1,7 +1,5 @@
 package classes
 
-import _root_.scala._
-
 class Cell1 {
   var contents: Int = 0
 

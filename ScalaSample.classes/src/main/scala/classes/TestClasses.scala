@@ -13,10 +13,10 @@ object TestClasses extends App {
   c2.set(31)
   println(c2.get)
 
-  val dt = new date(12, 12, 2012);
+  val dt = new Date(12, 12, 2012);
   dt output
 
-  val today = date(13, 12, 2012);
+  val today = Date(13, 12, 2012);
   today output
 
   today `how are you`
